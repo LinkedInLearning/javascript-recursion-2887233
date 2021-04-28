@@ -1,4 +1,4 @@
-# Differences Between Loops And Recursion
+# Solution: Write a recursive Fibonacci program
 This is the repository for the LinkedIn Learning course `Javascript Algorithms: Recursion`. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![course-name-alt-text][lil-thumbnail-url] 
