@@ -1,4 +1,4 @@
-# Solution: Write a recursive Fibonacci program
+# Wrapper Functions In Javascript
 This is the repository for the LinkedIn Learning course `Javascript Algorithms: Recursion`. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![course-name-alt-text][lil-thumbnail-url] 
@@ -15,7 +15,7 @@ This is the repository for the LinkedIn Learning course `Javascript Algorithms: 
 # inspect the page
 4. If you want to interact via terminal
 # navigate your terminal to the project folder
-# run `node nameOfTheFile.js`
+ run `node nameOfTheFile.js`
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
