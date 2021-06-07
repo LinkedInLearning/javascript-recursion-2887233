@@ -1,12 +1,22 @@
-function fibo( n ){
-    if ( n === 0 || n === 1 ) {
-        return n
+function fibo(index) {
+    let previousNumber = 0
+    let lastNumber = 1
+    let currentNumber
+
+    let count = 0
+
+    let fiboSequence = []
+
+    while (count < index) {
+        fiboSequence.push(previousNumber)
+
+        currentNumber = previousNumber + lastNumber
+        previousNumber = lastNumber
+        lastNumber = currentNumber
+
+        count++ // step
     }
-    else {
-        return fibo( n- 1 ) + fibo( n - 2 )
-    }
+    return fiboSequence
 }
 
-console.log ( fibo ( 5 ) )
-console.log ( fibo ( 10 ) )
-console.log ( fibo ( 20 ) )
+console.table(fibo(30))
