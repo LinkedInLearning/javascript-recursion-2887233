@@ -43,38 +43,11 @@
 			squareBlock.innerText = count
 			console.log(count)
 			row.appendChild(squareBlock)
-			consoleHi()
 			console.log(factorial_loop(12))
 			console.log(factorial_recursion(12))
 			count++
 	}, 2000) 
 
-	function consoleHi(){
-		console.log("hi")
-	}
 
-	function factorial_loop(num) {
-		let answer = 1
-		if (num == 0 || num === 1) {
-			return 1
-		} else {
-			for ( let i = num; i > 0; i--) {
-				answer *= i
-				// console.log(i)
-			}
-		}
-		return answer
-	}
-
-	function factorial_recursion(index){
-		if (index === 0){
-			return 1
-		}else {
-			return index * factorial_recursion(index -1)
-		}
-	}
-
-
-	
 </script>
 </html>
