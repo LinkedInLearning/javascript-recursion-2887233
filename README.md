@@ -2,9 +2,9 @@
 
 This is the repository for the LinkedIn Learning course `Javascript Algorithms: Recursion`. The full course is available from [LinkedIn Learning][lil-course-url].
 
-`Section 02_02 Wrapper Functions In Javascript`
+## Section 02_02 Wrapper Functions In Javascript
 
-# List of File
+## List of File
 
 - index.html
 - counter.js
