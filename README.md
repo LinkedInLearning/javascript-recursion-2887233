@@ -3,8 +3,7 @@
 ## List of File
 
 - index.html
-- palindrome_iteration.js
-- palindrome_solution.js
+- count_leafs_in_binary_tree.js
 
 ## How To Use The Demo Files
 
