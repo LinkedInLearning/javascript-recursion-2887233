@@ -1,10 +1,12 @@
 function functionA() {
-    functionB()
+	functionB()
 }
+
 function functionB() {
-    functionC()
+	functionC()	
 }
 
 function functionC() {
-    console.trace()
+	console.trace()
 }
+

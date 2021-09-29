@@ -1,9 +1,11 @@
 function functionD() {
-    functionF()
-}
-function functionF() {
-    console.trace()
-    functionD()
+	functionF()
 }
 
-functionD()
+function functionF() {
+	console.trace()
+	functionD()	
+}
+
+
+
