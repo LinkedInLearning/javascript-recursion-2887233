@@ -20,3 +20,5 @@ function fibo(index) {
 }
 
 console.table(fibo(30))
+
+
